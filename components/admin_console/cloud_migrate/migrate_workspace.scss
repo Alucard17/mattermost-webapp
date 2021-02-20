@@ -131,76 +131,11 @@
                 line-height: 20px;
             }
         }
-
-        .admin-console__migrate-importStatus {
-            font-family: Open Sans;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 20px;
-        }
-
-        .completed {
-            color: var(--sys-online-indicator);
-        }
-
-        .failed {
-            color: var(--sys-error-text);
-        }
-
-        .in_progress {
-            color: var(--sys-mention-color);
-            .icon {
-                
-            }
-        }
-    }
-
-    .MigrateWorkspace__table {
-        width: 100%;
-    
-        th, td {
-            padding: 8px 12px;
-        }
-    }
-    
-    .MigrateWorkspace__table-header {
-        background: rgba(var(--sys-center-channel-color-rgb), 0.08);
-        line-height: 16px;
-        font-weight: 600;
-        border-bottom: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.16);
-    
-        &:last-child {
-            border-bottom: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.08);
-        }
-    }
-    
-    .MigrateWorkspace__table-row {
-        border-bottom: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.08);
-        height: 50px;
-
-        a.download_log {
+        table a.download_log {
             font-weight: 600;
             font-size: 14px;
             line-height: 14px;
         }
-    }
-    
-    .MigrateWorkspace__table-bottomDesc {
-        margin-top: 4px;
-        color: rgba(var(--sys-center-channel-color-rgb), 0.56);
-        font-size: 12px;
-        line-height: 16px;
-    }
-
-    .MigrateWorkspace__table-importType {
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-    .MigrateWorkspace__table-headerTotal {
-        text-align: right;
     }
     
 }
